@@ -13,7 +13,7 @@ public class Triangulo {
 
     public void calcArea() {
         if (this.base > 0 && this.altura > 0) {
-            double area = base * altura;
+            double area = (base * altura) / 2;
             System.out.println("o valor da area é: " + area);
         } else {
             System.out.println("atributos do triangulo invalido.");
